@@ -34,4 +34,8 @@ M5Stack ATOM Lite を使い、ローカルネットワークから家電を赤�
 
 ## 現在の状態
 
-Planning。まだハードウェアは購入していません。
+Planning / network PoC investigation。
+
+ATOM Liteはまだ購入していません。現在は既存のSwitchBot LEDシーリングライトを対象に、ルーターとアクセスポイントをまたぐ自宅LAN内の到達性、およびローカルWi-Fi/BLE経路のPoC可否を確認しています。
+
+次回はMacをルーター本体の通常Wi-Fiへ接続し、アクセスポイントのブリッジ設定、端末間隔離、ゲスト/IoT VLANの影響を切り分けます。SwitchBot照明のローカル制御調査の詳細は、[note/0001-switchbot-local-network-investigation.md](note/0001-switchbot-local-network-investigation.md) にまとめています。
