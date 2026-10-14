@@ -1,0 +1,14 @@
+.DS_Store
+.env
+.env.*
+!.env.example
+bin/
+dist/
+*.log
+*.tmp
+data/
+firmware/.pio/
+firmware/.pioenvs/
+firmware/.pio/libdeps/
+firmware/build/
+.vscode/
